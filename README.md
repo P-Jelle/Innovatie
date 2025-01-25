@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Innovatie Project
 
-## Getting Started
+Een React-gebaseerde webapplicatie met een Node.js-server en Vite als ontwikkelomgeving. Hieronder vind je instructies om te starten.
 
-First, run the development server:
+---
+
+## 📑 Inhoud
+
+- [⚙️ Installatie](#-installatie)
+- [🔧 Gebruik](#-gebruik)
+- [📂 Projectstructuur](#-projectstructuur)
+- [💻 Gebruikte Technologieën](#-gebruikte-technologieën)
+
+---
+
+## ⚙️ Installatie
+
+### 1. **Repository Clonen:**
+
+```bash
+git clone https://github.com/P-Jelle/Innovatie
+cd Innovatie
+```
+
+### 2. **Dependencies Installeren:**
+
+```bash
+npm install
+```
+
+### 3. **Server Starten:**
+
+```bash
+cd src/assets/scripts
+node server.js
+```
+
+### 4. **Ontwikkelomgeving Starten:**
+Open een nieuwe terminal, keer terug naar de rootmap, en start de ontwikkelomgeving:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🔧 Gebruik
+- **Sneakerlanceringen volgen**: Je krijgt gedetailleerde informatie over aankomende lanceringen van Nike-schoenen, inclusief prijzen, beschikbaarheid en lanceringstijden.
+- **Real-time voorraadcontrole**: De website toont de actuele voorraadstatus voor elke maat van het product.
+- **Exclusieve toegang**: Informatie over exclusieve toegang tot bepaalde producten wordt weergegeven.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📂 Projectstructuur
 
-To learn more about Next.js, take a look at the following resources:
+```
+Innovatie/
+├── public/             # Statische assets
+├── src/                
+│   ├── assets/         # Scripts en stijlen
+│   │   ├── scripts/    # Serverscripts
+│   │   └── styles/     # CSS-bestanden
+│   ├── components/     # React-componenten
+│   ├── App.jsx         # Hoofdapplicatiebestand
+│   └── main.jsx        # Ingangspunt
+├── .gitignore          # Git ignore-bestand
+├── index.html          # HTML-template
+├── package.json        # Projectmetadata en dependencies
+├── vite.config.js      # Vite-configuratie
+└── README.md           # Projectdocumentatie
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 💻 Gebruikte Technologieën
 
-## Deploy on Vercel
+- **React**: Voor het bouwen van de gebruikersinterface.
+- **Node.js**: Voor backend-functionaliteit.
+- **Vite**: Voor snelle ontwikkelomgeving.
+- **CSS**: Voor stijlen.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
