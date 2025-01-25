@@ -18,7 +18,7 @@ Een React-gebaseerde webapplicatie met een Node.js-server en Vite als ontwikkelo
 ### 1. **Repository Clonen:**
 
 ```bash
-[git clone https://github.com/P-Jelle/Innovatie](https://github.com/P-Jelle/Innovatie.git)
+https://github.com/P-Jelle/Innovatie.git
 cd Innovatie
 ```
 
